@@ -5,14 +5,13 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:vue/vue3-recommended',
-    'plugin:tailwindcss/recommended'
+    'plugin:vue/vue3-recommended'
   ],
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: 'module'
   },
-  plugins: ['vue', 'tailwindcss'],
+  plugins: ['vue'],
   rules: {
     // Base
     semi: ['error', 'never'],
