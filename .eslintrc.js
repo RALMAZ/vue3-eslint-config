@@ -150,11 +150,9 @@ module.exports = {
       props: true
     }],
     'no-self-compare': 'error',
-    // @NOTE remove if annoing
     'no-sequences': 'error',
     'no-throw-literal': 'error',
     'no-unmodified-loop-condition': 'off',
-    // @NOTE remove if annoing
     'no-unused-expressions': ['error', {
       allowShortCircuit: false,
       allowTernary: false,
